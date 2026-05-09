@@ -1,6 +1,10 @@
 package com.expense_tracker.model;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.JoinColumn;
 
 import com.expense_tracker.model.User;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.Data;
@@ -31,5 +35,6 @@ public class Expense {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
+    @JsonIgnore
     private User user;
 }
