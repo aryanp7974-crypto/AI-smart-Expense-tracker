@@ -126,4 +126,4 @@ Never commit `application.properties`. It's gitignored. Create it locally with y
 
 ---
 
-Built by [Aryan Pandey](https://github.com/aryanp7974-crypto) — B.Tech CSE @ Mahakal Institute of Technology
+Built by [Aryan Pandey](https://github.com/aryanp7974-crypto) — 
